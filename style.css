@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&family=Merriweather:wght@400;700&family=Poppins:wght@200;400;700&family=Spline+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Fira Code', monospace;
+    background-color: azure;
+}
+a{
+    text-decoration: none;
+}
+.button a{
+    padding: 10px 25px;
+    color: #fff;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* 
+
+font-family: 'Fira Code', monospace;
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Spline Sans', sans-serif;
+
+*/
