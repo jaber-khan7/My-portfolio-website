@@ -169,37 +169,45 @@ span.black_color {
 }
 
 
-/* Testimonial Section start */
+/* contact Section start */
 
 
-
-.section_header p {
-    font-family: 'Fira Code';
-    font-size: 14px;
-    color: deeppink;
-    display: inline-block;
-    background: deepskyblue;
-    padding: 5px 21px;
-    border-radius: 25px;
+div#contact_header {
+    width: 100%;
+    text-align: center;
+    margin: 60px 0 50px;
 }
 
-.section_header {
+div#contact_header h2 {
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 400;
+    color: #1c1c1c;
+}
+
+div#contact_header p {
+    width: 50%;
+    margin: auto;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.contact_links {
+    flex-basis: 30%;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: beige;
     text-align: center;
 }
 
-div#testimonial_div {
-    flex-basis: 35%;
-}
-
-div#testimonial_info_div {
-    flex-basis: 60%;
-    padding: 20px;
-    background-color: lightgoldenrodyellow;
+.contact_info {
+    width: 70%;
+    display: inline-block;
 }
 
 
 
-/* Testimonial Section end */
+/* contact Section end */
 
 
 
