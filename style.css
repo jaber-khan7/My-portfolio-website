@@ -25,7 +25,7 @@ a{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 70px;
+    margin: 0 90px;
 }
 
 p {
@@ -62,6 +62,7 @@ span{
 }
 #home_info{
     flex-basis: 50%;
+    margin-top: 50px;
     padding: 0 30px;
 }
 #home_heading{
@@ -91,13 +92,13 @@ span{
     width: 85%;
 }
 div#home_page_image {
-    flex-basis: 50%;
-    padding: 30px;
-    margin-bottom: 70px;
+    flex-basis: 40%;
+    margin-bottom: 50px;
     display: inline-flex;
 }
+
 div#home_page_image img {
-    width: 75%;
+    width: 90%;
     margin: auto;
 }
 
@@ -107,7 +108,7 @@ div#home_page_image img {
 
 
 .my_mission_div {
-    flex-basis: 30%;
+    flex-basis: 31%;
     padding: 30px;
     border-radius: 25px;
 }
