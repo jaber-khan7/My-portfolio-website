@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&family=Merriweather:wght@400;700&family=Poppins:wght@200;400;700&family=Spline+Sans:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cormorant+Garamond:wght@400;700&family=Hahmlet:wght@400;700&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Poppins:wght@300;400;600;700&family=Yeseva+One&display=swap');
 
 *{
     margin: 0;
@@ -26,14 +25,15 @@ a{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 0 50px;
+    margin: 50px 70px;
 }
 
 p {
-    font-family: 'Fira Code', sans-serif;
-    /* line-height: 1.2; */
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
     line-height: 1.5;
+    letter-spacing: .4px;
+    color: #1e1e1e;
 }
 .button{
     margin-bottom: 25px;
@@ -51,11 +51,14 @@ span{
 /* section{
     padding-top: 50px;
 } */
-.section_header{
+.section_header h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 32px;
+    font-size: 44px;
     font-weight: 700;
+    text-align: center;
+    color: #1c1c1c;
     letter-spacing: 1px;
+    padding: 20px 0 50px;
 }
 #home_info{
     flex-basis: 50%;
@@ -79,9 +82,9 @@ span{
 
 }
 #home_heading h1{
-    font-family: 'Lora', serif;
+    font-family: 'Yeseva One', cursive;
     font-size: 56px;
-    font-weight: 700;
+    font-weight: 400;
 }
 .inner {
     margin: 25px 0;
@@ -90,6 +93,7 @@ span{
 div#home_page_image {
     flex-basis: 50%;
     padding: 30px;
+    margin-bottom: 70px;
     display: inline-flex;
 }
 div#home_page_image img {
@@ -99,14 +103,104 @@ div#home_page_image img {
 
 
 
+/* My Mission Section start */
+
+
+.my_mission_div {
+    flex-basis: 30%;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.my_mission_div img {
+    width: 40%;
+}
+
+.my_mission_div h3 {
+    font-family: 'Poppins';
+    color: #1e1e1e;
+    font-size: 20px;
+    padding: 12px 0;
+}
+.pink{
+    background-color: #ff008a17;
+}
+.green{
+    background-color: #00800026;
+}
+.blue{
+    background-color: #00bfff1c;
+}
+.row_two{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 70px;
+}
+.blog_image {
+    flex-basis: 36%;
+    padding: 25px;
+    display: inline-flex;
+}
+
+.blog_image img {
+    width: 100%;
+    transition: 400ms;
+}
+.blog_image img:hover{
+    transform: scale(1.1);
+}
+
+.coding_div {
+    flex-basis: 59%;
+    padding: 30px 50px;
+}
+
+h2.coding_header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+span.black_color {
+    display: block;
+    color: #1c1c1c;
+}
+
+
+
+/* footer section start */
+
+
+
+footer#footer {
+    background-color: #1c1c1c;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+div#mission h1 {
+    color: #fff;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+div#mission p {
+    color: #fff;
+    font-family: 'Fira Code';
+}
+
+
+
+/* footer section end */
 
 
 
 /* 
 
 font-family: 'Fira Code', monospace;
-font-family: 'Merriweather', serif;
 font-family: 'Poppins', sans-serif;
-font-family: 'Spline Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
 
 */
